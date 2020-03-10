@@ -91,7 +91,7 @@ All steps are done in the live boot environment.
 
 ## Access In-Progress Installation
 - `$ arch-chroot /mnt`
-- **You can now do any of the following steps in any order you'd like**
+- **You can now do the following steps in any order you'd like**
 
 ---
 # Stage 2
