@@ -167,4 +167,4 @@ All steps are done in the chroot environment.
 ---
 # Stage 3
 
-## Reboot and Pray to God You Didn't Fuck Something Up
+- ***Reboot and Pray to God You Didn't Fuck Something Up***
