@@ -1,5 +1,6 @@
 # How To Install Arch v1.0
-My walkthrough for how I installed Arch Linux on LVM with encryption.
+
+My walkthrough for how I installed Arch Linux on LVM with encryption, utilizing KDE Plasma as the desktop environment.
 
 This walkthrough corresponds with my very first Arch install and may change as I become more acquainted with Arch, so this is v1.0 of my walkthrough.
 
