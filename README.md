@@ -141,7 +141,7 @@ All steps are done in the chroot environment.
 - Uncomment "GRUB_ENABLE_CRYPTODISK=y"
 - Edit line "GRUB_CMDLINE_LINUX_DEFAULT"
   - Add "cryptdevice=/dev/sda3:volgroup0:allow-discards" between "loglevel=3" and "quiet"
-    - **CRITICAL. DO NOT FUCK UP.**
+    - **CRITICAL. DO NOT **** UP.**
 - `$ mkdir /boot/EFI`
 - Finally mount the EFI partition `$ mount /dev/sda1 /boot/EFI`
 - `$ grub-install --target=x86_64-efi --bootloader-id=grub_uefi --recheck`
@@ -167,4 +167,4 @@ All steps are done in the chroot environment.
 ---
 # Stage 3
 
-***Reboot and Pray to God You Didn't Fuck Something Up***
+***Reboot and Pray to God You Didn't **** Something Up***
