@@ -6,6 +6,7 @@ Obviously talking about Linux to Windows 10.
 
 - [Download .iso file from Microsoft](https://www.microsoft.com/en-us/software-download/windows10ISO)
 - Use [WoeUSB](https://github.com/slacka/WoeUSB) to create bootable Windows drive
+  - ***NOTE:*** WoeUSB might throw an error once the boot drive is created. Just check the contents of the drive for Windows file to confirm the boot drive was created correctly.
 
 ### Alternative Method (has failed before):
 
