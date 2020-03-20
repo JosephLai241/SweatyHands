@@ -124,6 +124,16 @@ All steps are done in the chroot environment.
   - Uncomment lines that start with "en_US" for United States
 - `$ locale-gen`
 
+## Edit `/etc/hosts` and `/etc/hostname`
+- Add these lines in `hosts`
+  - ```
+    127.0.0.1   localhost
+    ::1         localhost
+    127.0.1.1   arch.localdomain  arch
+    ```
+- Add this to `hostname`
+  - `arch`
+
 ## Set root password
 - `$ passwd`
 
