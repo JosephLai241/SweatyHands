@@ -99,7 +99,7 @@ All steps are done in the live boot environment.
 All steps are done in the chroot environment.
 
 ## Install Additional Essential Linux packages
-- `$ pacman -S base-devel lvm2 man-db man-pages texinfo linux linux-lts linux-headers linux-lts-headers networkmanager wpa_supplicant wireless_tools netctl dialog mesa grub efibootmgr dosfstools os-prober mtools xorg-server plasma-meta kde-applications intel-ucode`
+- `$ pacman -S base-devel lvm2 linux-firmware man-db man-pages texinfo linux linux-lts linux-headers linux-lts-headers networkmanager wpa_supplicant wireless_tools netctl dialog mesa grub efibootmgr dosfstools os-prober mtools xorg-server plasma-meta kde-applications intel-ucode nano`
   - `lvm2` - **CRITICAL PACKAGE**. Required to boot LVM 
   - `linux` and `linux-lts` gives us kernel options 
   - `linux-headers` and `linux-lts-headers` are optional, but recommended
