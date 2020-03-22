@@ -4,9 +4,10 @@ My walkthrough for how I installed Arch Linux on LVM with encryption, utilizing 
 
 This walkthrough corresponds with my very first Arch install and may change as I become more acquainted with Arch, so this is v1.0 of my walkthrough.
 
-Additional info:
-- [Dual Boot Windows 10 and Arch Linux](https://github.com/JosephLai241/SweatyHands/blob/master/Dual%20Boot%20Windows%2010.md)
-- [Extending LVM Partitions and LVM Snapshots](https://github.com/JosephLai241/SweatyHands/blob/master/LVM%20Extend%20and%20Restore.md)
+| Additional info |
+|-----------------|
+| [Dual Boot Windows 10 and Arch Linux](https://github.com/JosephLai241/SweatyHands/blob/master/Dual%20Boot%20Windows%2010.md) |
+| [Extending LVM Partitions and LVM Snapshots](https://github.com/JosephLai241/SweatyHands/blob/master/LVM%20Extend%20and%20Restore.md) |
 
 All steps are listed in the order I followed to set up Arch.
 
