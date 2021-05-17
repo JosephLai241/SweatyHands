@@ -1,14 +1,44 @@
-# How To Install Arch v1.0
+# How To Install Arch Linux
 
-My walkthrough for how I installed Arch Linux on LVM with encryption, utilizing KDE Plasma as the desktop environment.
+This is my walkthrough for how I installed **Arch Linux on LVM with encryption, utilizing KDE Plasma** as the desktop environment.
 
-This walkthrough corresponds with my very first Arch install and may change as I become more acquainted with Arch, so this is v1.0 of my walkthrough.
+This walkthrough may change as I become more acquainted with Arch.
 
-| Additional info |
-|-----------------|
-| [Dual Boot Windows 10 and Arch Linux](https://github.com/JosephLai241/SweatyHands/blob/master/Dual%20Boot%20Windows%2010.md) |
-| [Extending LVM Partitions and LVM Snapshots](https://github.com/JosephLai241/SweatyHands/blob/master/LVM%20Extend%20and%20Restore.md) |
-| [Converting from a full Linux install to Windows 10](https://github.com/JosephLai241/SweatyHands/blob/master/Linux%20to%20Windows%2010.md) |
+# Table of Contents
+
+* Installation
+	+ [Stage 1](#stage-1)
+		* [Clear Existing Partitions](#clear-existing-partitions)
+		* [Create New Partitions](#create-new-partitions)
+		* [Make Filesystems for EFI and Boot Partitions](#make-filesystems-for-efi-and-boot-partitions)
+		* [Encrypt and Make Filesystem for the LVM](#encrypt-and-make-filesystem-for-the-lvm)
+		* [Mount Volumes (ALL EXCEPT EFI)](#mount-volumes-all-except-efi)
+		* [Get a Network Connection (Wireless Connection)](#get-a-network-connection-wireless-connection)
+		* [Edit Mirror List](#edit-mirror-list)
+		* [Install `base` Package](#install-base-package)
+		* [Generate and Check `fstab` File](#generate-and-check-fstab-file)
+		* [Access In-Progress Installation](#access-in-progress-installation)
+	+ [Stage 2](#stage-2)
+		* [Install Additional Essential Linux packages](#install-additional-essential-linux-packages)
+		* [IMPORTANT: Edit `mkinitcpio.conf` File](#important-edit-mkinitcpioconf-file)
+		* [Set Timezone and Hardware Clock](#set-timezone-and-hardware-clock)
+		* [Set Locale](#set-locale)
+		* [Edit `/etc/hosts` and `/etc/hostname`](#edit-etchosts-and-etchostname)
+		* [Set Root Password](#set-root-password)
+		* [Create Users](#create-users)
+		* [Configure GRUB](#configure-grub)
+		* [Create SWAPFILE](#create-swapfile)
+		* [Configure KDE Plasma](#configure-kde-plasma)
+	+ [Stage 3](#stage-3)
+* Additional Information
+	+ General Maintenance
+		* [How to Upgrade and Not Break Your Entire Install]
+		* [If You Broke Everything]
+	+ LVM
+		* [Extending LVM Partitions and LVM Snapshots]
+	+ Windows 10
+		* [Converting from a full Linux install to Windows 10]
+		* [Dual Boot Windows 10 and Arch Linux]
 
 All steps are listed in the order I followed to set up Arch.
 
@@ -140,7 +170,7 @@ All steps are done in the chroot environment.
 - Add this to `hostname`
   - `arch`
 
-## Set root password
+## Set Root Password
 - `$ passwd`
 
 ## Create Users
@@ -184,3 +214,16 @@ All steps are done in the chroot environment.
 # Stage 3
 
 ***Reboot and Pray to God You Didn't **** Something Up***
+
+<!-- Additional Information Links -->
+
+<!-- General Maintenance -->
+[How to Upgrade and Not Break Your Entire Install]: https://www.something.com
+[If You Broke Everything]: https://www.something.com
+
+<!-- LVM -->
+[Extending LVM Partitions and LVM Snapshots]: https://www.something.com
+
+<!-- Windows 10 -->
+[Dual Boot Windows 10 and Arch Linux]: https://www.something.com
+[Converting from a full Linux install to Windows 10]: https://www.something.com
