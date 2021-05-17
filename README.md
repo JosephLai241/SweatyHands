@@ -2,6 +2,7 @@
 
 ![Arch Badge][Arch Badge]
 ![KDE Badge][KDE Badge]
+![MIT Badge][MIT Badge]
 
 This is my walkthrough for how I installed **Arch Linux on LVM with encryption, utilizing KDE Plasma** as the desktop environment.
 
@@ -229,6 +230,7 @@ All steps are done in the chroot environment.
 <!-- LINKS -->
 [Arch Badge]: https://img.shields.io/badge/OS-Arch%20Linux-blue?style=for-the-badge&logo=arch-linux
 [KDE Badge]: https://img.shields.io/badge/Desktop-KDE-blue?style=for-the-badge&logo=kde
+[MIT Badge]: https://img.shields.io/github/license/JosephLai241/SweatyHands?style=for-the-badge
 
 <!-- Additional Information Links -->
 
