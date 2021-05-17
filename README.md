@@ -5,7 +5,15 @@
 
 This is my walkthrough for how I installed **Arch Linux on LVM with encryption, utilizing KDE Plasma** as the desktop environment.
 
-This walkthrough may change as I become more acquainted with Arch.
+This repository includes additional documents pertaining to:
+
+* General Maintenance
+* LVM
+* Windows 10
+
+Documents within these areas of interest are listed in the Additional Information section of the Table of Contents.
+
+SweatyHands is a work in progress and will be continually updated as I become more familiar with Arch.
 
 # Table of Contents
 
