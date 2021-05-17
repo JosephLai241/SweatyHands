@@ -218,8 +218,8 @@ All steps are done in the chroot environment.
 <!-- Additional Information Links -->
 
 <!-- General Maintenance -->
-[How to Upgrade and Not Break Your Entire Install]: https://www.something.com
-[If You Broke Everything]: https://www.something.com
+[How to Upgrade and Not Break Your Entire Install]: https://github.com/JosephLai241/SweatyHands/blob/master/General%20Maintenance/How%20to%20Upgrade%20and%20Not%20Break%20Your%20Entire%20Install.md
+[If You Broke Everything]: https://github.com/JosephLai241/SweatyHands/blob/master/General%20Maintenance/If%20You%20Broke%20Everything.md
 
 <!-- LVM -->
 [Extending LVM Partitions and LVM Snapshots]: https://www.something.com
