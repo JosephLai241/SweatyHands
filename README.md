@@ -229,8 +229,8 @@ All steps are done in the chroot environment.
 [If You Broke Everything]: https://github.com/JosephLai241/SweatyHands/blob/master/General%20Maintenance/If%20You%20Broke%20Everything.md
 
 <!-- LVM -->
-[Extending LVM Partitions and LVM Snapshots]: https://www.something.com
+[Extending LVM Partitions and LVM Snapshots]: https://github.com/JosephLai241/SweatyHands/blob/master/LVM/Extending%20and%20Restoring.md
 
 <!-- Windows 10 -->
-[Dual Boot Windows 10 and Arch Linux]: https://www.something.com
-[Converting from a full Linux install to Windows 10]: https://www.something.com
+[Dual Boot Windows 10 and Arch Linux]: https://github.com/JosephLai241/SweatyHands/blob/master/Windows%2010/Converting%20From%20Linux%20to%20Windows%2010.md
+[Converting from a full Linux install to Windows 10]: https://github.com/JosephLai241/SweatyHands/blob/master/Windows%2010/Dual%20Boot%20Windows%2010.md
